@@ -35,7 +35,7 @@ header img {
 header div {
      width: 120px;
      margin: auto;
-     background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+     background-image: linear-gradient(90deg, #9572FC 0%, #5344db 50.52%, #459be2 100%);
      border-radius: 50%;
      display: flex;
      padding: 4px;
@@ -80,7 +80,7 @@ main section:nth-child(3) {
 
 section {
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #372b5e 0%, #5344db 50.52%, #459be2 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
@@ -99,6 +99,29 @@ section h2 {
 section p {
     letter-spacing: -0.18px; 
     color: #A1A1AA;
+}
+
+/* Animação das Sections */
+
+section:nth-child(1) {
+    transition: transform .3s;
+}
+section:nth-child(1):hover {
+    transform: scale(1.1);
+}
+
+section:nth-child(2) {
+    transition: transform .3s;
+}
+section:nth-child(2):hover {
+    transform: scale(1.1);
+}
+
+section:nth-child(3) {
+    transition: transform .3s;
+}
+section:nth-child(3):hover {
+    transform: scale(1.1);
 }
 
 /* Estilizando a UL */
@@ -152,13 +175,13 @@ ul {
 .channel-list img {
     border-radius: 50%;
     width: 70px;
-    border: 2px solid #622ef0;
+    border: 3px solid #622ef0;
 }
 
-.yoda {
+.casemiro {
     transition: transform .3s;
 }
-.yoda:hover {
+.casemiro:hover {
     transform: scale(1.1);
 }
 
@@ -206,9 +229,7 @@ ul {
     transform: scale(1.1);
 }
 
-.section-1 {
-    transition: transform .3s;
-}
+
 
 /* Animações*/
 
